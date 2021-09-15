@@ -11,6 +11,7 @@ Packages/com.ptc.vuforia.engine-10.1.4.tgz
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+.vsconfig
 /Packages/com.ptc.vuforia.engine-10.1.4.tgz
 # MemoryCaptures can get excessive in size.
 .vsconfig
