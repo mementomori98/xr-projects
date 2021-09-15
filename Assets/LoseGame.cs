@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -26,6 +27,11 @@ public class LoseGame : MonoBehaviour
     {
         coroutine = Loss(5.0f);
         StartCoroutine(coroutine);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        RestartLevel();
     }
 
     private IEnumerator Loss(float waitTime)

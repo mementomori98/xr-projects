@@ -10,7 +10,7 @@ public class BallBouncer : MonoBehaviour
 {
 
     [SerializeField]
-    private float speed = 0.4f;
+    private float speed = 1.0f;
 
     private Vector3 _velocity;
     private Rigidbody _rb;
